@@ -1,0 +1,23 @@
+body{
+  background-color: slategray;
+  height: 100vh;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: purple; border-style: outset;
+  height: 125px;
+}
+
+h1{
+  color: gold;
+  font-style: oblique;
+}
+
+a{
+  border-style: outset; background-color: purple;
+  color: wheat; border-color: gray;
+  text-decoration: none;
+}
