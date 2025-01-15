@@ -1,6 +1,5 @@
 body{
   background-color: slategray;
-  height: 100vh;
 }
 
 header{
@@ -11,7 +10,7 @@ header{
   height: 125px;
 }
 
-h1{
+h1, h2{
   color: gold;
   font-style: oblique;
 }
@@ -20,4 +19,37 @@ a{
   border-style: outset; background-color: purple;
   color: wheat; border-color: gray;
   text-decoration: none;
+}
+
+blockquote{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+}
+
+section{
+  display: flex;
+  background-color: darkcyan;
+  height: 65vh;
+  width: auto;
+  border-style: groove;
+}
+
+main{
+  display: flex; flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+
+img{
+  padding: 5%;
+  max-height: auto;
+  max-width: auto;
+}
+
+@media (min-width:300px) and (max-width: 1200px) {
+  body{ background-color: black;} 
+  section{width: auto; height: auto;}
+  main{width: auto;height: fit-content;}
 }
